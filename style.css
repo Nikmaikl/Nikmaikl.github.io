@@ -1,0 +1,30 @@
+body
+{
+	background: #333;
+	cursor: pointer;
+	padding: 0;
+	margin: 0;
+}
+
+#gameName
+{
+	color: #fff;
+	margin-top: 10px;
+	font-family: -apple-system, "HelveticaNeue-UltraLight", sans-serif;
+	font-weight: 200;
+	-webkit-font-smoothing: subpixel-antialiased;
+	font-size: 27px;
+	text-align: center;
+}
+
+canvas
+{
+	display: block;	
+	margin: 50px auto 0px;
+}
+
+#player, #enemy, #stats
+{
+	display: block;
+	margin: -500px auto 0px;
+}
